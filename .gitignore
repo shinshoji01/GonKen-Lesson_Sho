@@ -2,8 +2,6 @@
 fashion_dataset1/
 fashion_dataset2/
 fashion_dataset3/
-csv/
 instant_parameters/
 __pycache__/
 MNIST/
-MNIST_csv/
