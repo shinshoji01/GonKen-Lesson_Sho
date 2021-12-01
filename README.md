@@ -4,21 +4,21 @@ This repository contains the lessons that I gave for the laboratory I belonged t
 # Lessons
 
 ## M1_spring
-- 02_Learning_Algorithm
+- [02_Learning_Algorithm](https://github.com/shinshoji01/GonKen-Lesson_Sho/tree/main/M1_spring/02_Learning_Algorithm)
   - It describes the basic algorithm used in machine learning.
-- 04_Overfitting_Underfitting
-- 05_Practice-Overfitting_Underfitting
+- [04_Overfitting_Underfitting](https://github.com/shinshoji01/GonKen-Lesson_Sho/tree/main/M1_spring/04_Overfitting_Underfitting)
+- [05_Practice-Overfitting_Underfitting](https://github.com/shinshoji01/GonKen-Lesson_Sho/tree/main/M1_spring/05_Practice-Overfitting_Underfitting)
   - It contains an exercise of the lesson regaring overfitting and underfitting.
-- 10_Convolutional_Neural_Networks
+- [10_Convolutional_Neural_Networks](https://github.com/shinshoji01/GonKen-Lesson_Sho/tree/main/M1_spring/10_Convolutional_Neural_Networks)
 
 ## M1_autumn
-- PyTorch_implementation
+- [PyTorch_implementation](https://github.com/shinshoji01/GonKen-Lesson_Sho/tree/main/M1_autumn/PyTorch_implementation)
 
 ## M2_spring
-- PyTorch_implementation
+- [PyTorch_implementation](https://github.com/shinshoji01/GonKen-Lesson_Sho/tree/main/M2_spring/PyTorch_implementation)
 
 ## M2_autumn
-- Auto-Encoder
+- [Auto-Encoder](https://github.com/shinshoji01/GonKen-Lesson_Sho/tree/main/M2_autumn/Auto-Encoder)
 
 # Docker Environment
 This repository contains docker environment to allow anyone to try my model. To make the execution simple, I created my environment with docker-compose. Please follow the procedure below to build my environment.
