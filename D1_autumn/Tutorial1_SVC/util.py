@@ -5,12 +5,15 @@ import itertools
 import matplotlib.pyplot as plt
 import numpy as np
 import itertools
+
 def plot_confusion_matrix(cm,
                           target_names,
                           title='Confusion matrix',
                           cmap=None,
                           normalize=True,
-                          fontsize=30):
+                          fontsize=30,
+                          figsize=(10,8)):
+    
     """
     given a sklearn confusion matrix (cm), make a nice plot
     Arguments
@@ -42,7 +45,7 @@ def plot_confusion_matrix(cm,
     if cmap is None:
         cmap = plt.get_cmap('Blues')
 
-    plt.figure(figsize=(10, 8))
+    plt.figure(figsize=figsize)
     plt.imshow(cm, interpolation='nearest', cmap=cmap)
     plt.title(title, fontsize=20)
     plt.colorbar()
